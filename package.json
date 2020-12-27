@@ -1,0 +1,32 @@
+{
+  "name": "@expresso-app/expresso-auth",
+  "version": "1.0.0",
+  "description": "expresso auth controller",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "set NODE_ENV=development&& node test.js",
+    "test:prod": "set NODE_ENV=production&& node test.js",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expresso-app/expresso-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/expresso-app/expresso-auth/issues"
+  },
+  "homepage": "https://github.com/expresso-app/expresso-auth#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "expresso-repositories": "^1.0.1",
+    "expresso-services": "^1.0.1",
+    "expresso-utils": "^1.0.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
