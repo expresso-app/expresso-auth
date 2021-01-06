@@ -1,6 +1,6 @@
 {
   "name": "@expresso-app/expresso-auth",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "expresso auth controller",
   "main": "index.js",
   "scripts": {
