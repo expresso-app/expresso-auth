@@ -89,7 +89,7 @@ const signToken = id => {
     });
 };
 
-const sendResponseWithCookie = (user, statusCode, req, res) => {
+const sendResponseWithCookie = (user, statusCode, res) => {
     const token = signToken(user.id);
 
     const cookieOptions = {
