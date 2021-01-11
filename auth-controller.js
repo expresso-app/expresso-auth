@@ -187,7 +187,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
     const mailOptions = {
         email: user.email,
         subject: "Your password reset token (valid for 10 minutes)",
-        message: message
+        text: message
     };
 
     try {
