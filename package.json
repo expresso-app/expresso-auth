@@ -1,6 +1,6 @@
 {
   "name": "@expresso-app/expresso-auth",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "expresso auth controller",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "expresso-repositories": "^1.0.1",
-    "expresso-services": "^2.0.2",
+    "expresso-services": "^2.1.0",
     "expresso-utils": "^1.0.0",
     "jsonwebtoken": "^8.5.1"
   },

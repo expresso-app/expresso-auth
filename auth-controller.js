@@ -191,7 +191,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
     };
 
     try {
-        const emailSvc = new EmailService(config.email_host, config.email_address, config.email_password);
+        const emailSvc = new EmailService(config.email.host, config.email.userName, config.email.password);
         emailSvc.sendEmail(mailOptions);
 
         res.status(200).json({
